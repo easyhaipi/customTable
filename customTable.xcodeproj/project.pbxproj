@@ -7,15 +7,25 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		678EAA291E85259D00EBE746 /* UIView+DrawLine.m in Sources */ = {isa = PBXBuildFile; fileRef = 678EAA281E85259D00EBE746 /* UIView+DrawLine.m */; };
 		67EC308E1E84BD6800817B7B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 67EC308D1E84BD6800817B7B /* main.m */; };
 		67EC30911E84BD6800817B7B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 67EC30901E84BD6800817B7B /* AppDelegate.m */; };
 		67EC30941E84BD6800817B7B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 67EC30931E84BD6800817B7B /* ViewController.m */; };
 		67EC30971E84BD6800817B7B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 67EC30951E84BD6800817B7B /* Main.storyboard */; };
 		67EC30991E84BD6800817B7B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 67EC30981E84BD6800817B7B /* Assets.xcassets */; };
 		67EC309C1E84BD6800817B7B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 67EC309A1E84BD6800817B7B /* LaunchScreen.storyboard */; };
+		67EC30A61E84C07A00817B7B /* showTableViewDemoController.m in Sources */ = {isa = PBXBuildFile; fileRef = 67EC30A51E84C07A00817B7B /* showTableViewDemoController.m */; };
+		67EC30A81E84C08A00817B7B /* showTableViewDemoController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 67EC30A71E84C08A00817B7B /* showTableViewDemoController.storyboard */; };
+		67EC30AC1E84C14100817B7B /* CustomTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 67EC30AB1E84C14100817B7B /* CustomTableViewCell.m */; };
+		67EC30B01E84C1F500817B7B /* CustomCellFrame.m in Sources */ = {isa = PBXBuildFile; fileRef = 67EC30AF1E84C1F500817B7B /* CustomCellFrame.m */; };
+		67EC30B31E84C20C00817B7B /* CustomModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 67EC30B21E84C20C00817B7B /* CustomModel.m */; };
+		67EC30B61E84C49200817B7B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 67EC30B51E84C49200817B7B /* UIKit.framework */; };
+		67EC30BA1E84C5F200817B7B /* UIView+BaseFramework.m in Sources */ = {isa = PBXBuildFile; fileRef = 67EC30B91E84C5F200817B7B /* UIView+BaseFramework.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		678EAA271E85259D00EBE746 /* UIView+DrawLine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+DrawLine.h"; sourceTree = "<group>"; };
+		678EAA281E85259D00EBE746 /* UIView+DrawLine.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+DrawLine.m"; sourceTree = "<group>"; };
 		67EC30891E84BD6800817B7B /* customTable.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = customTable.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		67EC308D1E84BD6800817B7B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		67EC308F1E84BD6800817B7B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -26,6 +36,19 @@
 		67EC30981E84BD6800817B7B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		67EC309B1E84BD6800817B7B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		67EC309D1E84BD6800817B7B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		67EC30A41E84C07A00817B7B /* showTableViewDemoController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = showTableViewDemoController.h; sourceTree = "<group>"; };
+		67EC30A51E84C07A00817B7B /* showTableViewDemoController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = showTableViewDemoController.m; sourceTree = "<group>"; };
+		67EC30A71E84C08A00817B7B /* showTableViewDemoController.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = showTableViewDemoController.storyboard; sourceTree = "<group>"; };
+		67EC30AA1E84C14100817B7B /* CustomTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomTableViewCell.h; sourceTree = "<group>"; };
+		67EC30AB1E84C14100817B7B /* CustomTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomTableViewCell.m; sourceTree = "<group>"; };
+		67EC30AE1E84C1F500817B7B /* CustomCellFrame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomCellFrame.h; sourceTree = "<group>"; };
+		67EC30AF1E84C1F500817B7B /* CustomCellFrame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomCellFrame.m; sourceTree = "<group>"; };
+		67EC30B11E84C20C00817B7B /* CustomModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomModel.h; sourceTree = "<group>"; };
+		67EC30B21E84C20C00817B7B /* CustomModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomModel.m; sourceTree = "<group>"; };
+		67EC30B51E84C49200817B7B /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		67EC30B71E84C4B200817B7B /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		67EC30B81E84C5F200817B7B /* UIView+BaseFramework.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+BaseFramework.h"; sourceTree = "<group>"; };
+		67EC30B91E84C5F200817B7B /* UIView+BaseFramework.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+BaseFramework.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,6 +56,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				67EC30B61E84C49200817B7B /* UIKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -44,6 +68,7 @@
 			children = (
 				67EC308B1E84BD6800817B7B /* customTable */,
 				67EC308A1E84BD6800817B7B /* Products */,
+				67EC30B41E84C49200817B7B /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -58,6 +83,13 @@
 		67EC308B1E84BD6800817B7B /* customTable */ = {
 			isa = PBXGroup;
 			children = (
+				67EC30B81E84C5F200817B7B /* UIView+BaseFramework.h */,
+				67EC30B91E84C5F200817B7B /* UIView+BaseFramework.m */,
+				678EAA271E85259D00EBE746 /* UIView+DrawLine.h */,
+				678EAA281E85259D00EBE746 /* UIView+DrawLine.m */,
+				67EC30AD1E84C1D400817B7B /* Model */,
+				67EC30A91E84C10C00817B7B /* View */,
+				67EC30A31E84C04B00817B7B /* ViewController */,
 				67EC308F1E84BD6800817B7B /* AppDelegate.h */,
 				67EC30901E84BD6800817B7B /* AppDelegate.m */,
 				67EC30921E84BD6800817B7B /* ViewController.h */,
@@ -67,6 +99,7 @@
 				67EC309A1E84BD6800817B7B /* LaunchScreen.storyboard */,
 				67EC309D1E84BD6800817B7B /* Info.plist */,
 				67EC308C1E84BD6800817B7B /* Supporting Files */,
+				67EC30B71E84C4B200817B7B /* PrefixHeader.pch */,
 			);
 			path = customTable;
 			sourceTree = "<group>";
@@ -77,6 +110,44 @@
 				67EC308D1E84BD6800817B7B /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		67EC30A31E84C04B00817B7B /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				67EC30A41E84C07A00817B7B /* showTableViewDemoController.h */,
+				67EC30A51E84C07A00817B7B /* showTableViewDemoController.m */,
+				67EC30A71E84C08A00817B7B /* showTableViewDemoController.storyboard */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		67EC30A91E84C10C00817B7B /* View */ = {
+			isa = PBXGroup;
+			children = (
+				67EC30AA1E84C14100817B7B /* CustomTableViewCell.h */,
+				67EC30AB1E84C14100817B7B /* CustomTableViewCell.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		67EC30AD1E84C1D400817B7B /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				67EC30AE1E84C1F500817B7B /* CustomCellFrame.h */,
+				67EC30AF1E84C1F500817B7B /* CustomCellFrame.m */,
+				67EC30B11E84C20C00817B7B /* CustomModel.h */,
+				67EC30B21E84C20C00817B7B /* CustomModel.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		67EC30B41E84C49200817B7B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				67EC30B51E84C49200817B7B /* UIKit.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -140,6 +211,7 @@
 			files = (
 				67EC309C1E84BD6800817B7B /* LaunchScreen.storyboard in Resources */,
 				67EC30991E84BD6800817B7B /* Assets.xcassets in Resources */,
+				67EC30A81E84C08A00817B7B /* showTableViewDemoController.storyboard in Resources */,
 				67EC30971E84BD6800817B7B /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -151,8 +223,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				678EAA291E85259D00EBE746 /* UIView+DrawLine.m in Sources */,
 				67EC30941E84BD6800817B7B /* ViewController.m in Sources */,
+				67EC30A61E84C07A00817B7B /* showTableViewDemoController.m in Sources */,
 				67EC30911E84BD6800817B7B /* AppDelegate.m in Sources */,
+				67EC30AC1E84C14100817B7B /* CustomTableViewCell.m in Sources */,
+				67EC30B01E84C1F500817B7B /* CustomCellFrame.m in Sources */,
+				67EC30B31E84C20C00817B7B /* CustomModel.m in Sources */,
+				67EC30BA1E84C5F200817B7B /* UIView+BaseFramework.m in Sources */,
 				67EC308E1E84BD6800817B7B /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -274,7 +352,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 2B6L6G5YTF;
+				GCC_PREFIX_HEADER = "/Users/hulin/Desktop/wangqingsong/调研用的代码/customTable/customTable/PrefixHeader.pch";
 				INFOPLIST_FILE = customTable/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = adss.customTable;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -286,7 +366,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 2B6L6G5YTF;
+				GCC_PREFIX_HEADER = "/Users/hulin/Desktop/wangqingsong/调研用的代码/customTable/customTable/PrefixHeader.pch";
 				INFOPLIST_FILE = customTable/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = adss.customTable;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -312,6 +394,7 @@
 				67EC30A21E84BD6800817B7B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
